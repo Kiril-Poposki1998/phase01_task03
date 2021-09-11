@@ -1,6 +1,4 @@
-# Task 03 on Phase 01
-
-This repo for [Task 03](https://learningdevops.makvaz.com/phase1-task3-scripting).
+# Wordpress setup script automation
 
 You need to update file `setup_wordpress.sh`
 
@@ -10,4 +8,4 @@ To provision vm type `vagrant provision`
 
 To destroy vm type `vagrant destroy -f`
 
-###NOTE: Access wordpress with <ipaddress_of_machine>/wordpress
+**NOTE: Access wordpress with <ipaddress_of_machine>/wordpress**
