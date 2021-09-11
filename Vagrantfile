@@ -10,6 +10,7 @@ Vagrant.configure("2") do |config|
     wp.vm.hostname = "wordpress"
     wp.vm.synced_folder ".", "/vagrant"
     wp.vm.provider "virtualbox" do |vb|
+	  vb.name = "wordpress_devops_automation"
       vb.gui = false
       vb.memory = 1024
       vb.linked_clone = false
